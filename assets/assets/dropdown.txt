@@ -1,0 +1,3 @@
+.sku-dropdown , .store-dropdown{
+    display: inline-block;
+}

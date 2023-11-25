@@ -1,0 +1,81 @@
+.card {
+    text-align: center;
+}
+.card .card-title {
+    text-align: left;
+    color: white;
+    font-weight: lighter;
+}
+
+.card .card-value {
+    font-size: 2rem;
+    line-height : 0.4;
+}
+
+.card .card-target {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.data-overview-card-body.card-body{
+    padding : 0.4rem;
+    background: #2fa4e9;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    border-width : 2px;
+}
+
+.card .card-diff-down {
+    color: red
+}
+
+.card .card-diff-up {
+    color: green
+}
+
+.sku-deep-dive-card-body.card-body{
+    padding : 0.4rem;
+    background: #2fa4e9;
+    color: white;
+    border-color: black;
+    border-style: solid;
+    border-radius: 3px;
+    border-width : 2px;
+}
+
+.SingleDatePickerInput {
+  border: 0px;
+}
+
+/* Fix box width of datepicker to be 100% of parent container*/
+.DateInput, .DateInput_1 {
+  width: 125% !important; /* replace with whatever length you prefer */
+}
+
+/* Fix the font size and other stuff of datepicker*/
+.DateInput_input, .DateInput_input_1 {
+  /* my personal stuff */
+  /*text-align: center;*/
+  line-height: calc(1.5em + 0.75rem);
+  /* default flatly stuff */
+  height: calc(1.5em + 0.75rem + 2px);
+  font-size: 80%;
+  font-weight: 400;
+  /*color: #7b8a8b;*/
+  width: 100%;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+li{
+text-align : left;
+}
+
+.SingleDatePicker_picker.SingleDatePicker_picker_1{
+left : -120px !important;
+}
